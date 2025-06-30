@@ -6,14 +6,15 @@ Tool for finding profitable cs2 skins with charms on Steam Market using SteamMar
 ## Steps for getting started:
 1. Clone repo: ```git clone https://github.com/whyblades/steam-scraper.git```
 
-2. Create ```.env``` file with ```COOKIE_MT``` and ```COOKIE_STEAM```
+2. Create ```.env``` file with variables ```COOKIE_MT``` and ```COOKIE_STEAM```
 
 3. Authorize on [steammt.ru](https://steammt.ru/), copy ```Cookie``` header's value using browser devdtools and assign this value to ```COOKIE_MT```
 
 4. Authorize on Steam. Account currency must be USD and language must be set to Russian
 
 5. Make any request to [steamcommunity.com/market](https://steamcommunity.com/market/), get ```Cookie``` header's value and assign it to ```COOKIE_STEAM```
-6. (optional) If you want to get notifications about found skins to Telegram Bot, follow simple steps in [Telegram Bot](###Telegram-Bot) section
+
+6. (optional) If you want to receive notifications about found skins in Telegram Bot, follow simple steps in [Telegram Bot](###Telegram-Bot) section
 
 7. Now you can just ```go run .```
 
